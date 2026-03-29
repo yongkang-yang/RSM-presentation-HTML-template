@@ -3,38 +3,188 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>RSM Presentation Template</title>
+    <title>RSM Presentation HTML Template</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="deck">
-      <section class="slide title-slide">
-        <p class="eyebrow">RSM</p>
-        <h1>Presentation Title</h1>
-        <p class="subtitle">Subtitle or presenter information</p>
+      <!-- ══════════════════════════════════════════════════
+           SLIDE 1 — Title slide (campus hero)
+           Layout: TITLESLIDE #1
+           ══════════════════════════════════════════════════ -->
+      <section class="slide slide--title">
+        <div class="slide__chrome">
+          <img
+            class="corner-wordmark"
+            src="assets/image3.svg"
+            alt="Rotterdam School of Management, Erasmus University"
+          />
+          <img class="corner-logo" src="assets/image5.svg" alt="RSM logo" />
+        </div>
+
+        <div class="slide__content">
+          <div class="slide__text">
+            <h1>Place title here</h1>
+            <p class="slide__subtitle">Name of presentation</p>
+          </div>
+          <div class="slide__rule"></div>
+        </div>
+
+        <div class="slide__hero">
+          <img src="assets/image10.png" alt="RSM campus hero image" />
+        </div>
       </section>
 
-      <section class="slide">
-        <h2>Key Message</h2>
-        <p>
-          Use one strong idea per slide. Keep text lean and prioritize visual
-          hierarchy.
-        </p>
+      <!-- ══════════════════════════════════════════════════
+           SLIDE 2 — Title slide (Rotterdam skyline)
+           Layout: TITLESLIDE #1
+           ══════════════════════════════════════════════════ -->
+      <section class="slide slide--title">
+        <div class="slide__chrome">
+          <img
+            class="corner-wordmark"
+            src="assets/image3.svg"
+            alt="Rotterdam School of Management, Erasmus University"
+          />
+          <img class="corner-logo" src="assets/image5.svg" alt="RSM logo" />
+        </div>
+
+        <div class="slide__content">
+          <div class="slide__text">
+            <h1>Place title here</h1>
+            <p class="slide__subtitle">Name of presentation</p>
+          </div>
+          <div class="slide__rule"></div>
+        </div>
+
+        <div class="slide__hero">
+          <img src="assets/image11.jpg" alt="Rotterdam skyline hero image" />
+        </div>
       </section>
 
-      <section class="slide two-column">
-        <div>
-          <h2>Column One</h2>
-          <ul>
-            <li>Point one</li>
-            <li>Point two</li>
-            <li>Point three</li>
-          </ul>
+      <!-- ══════════════════════════════════════════════════
+           SLIDE 3 — Text slide
+           Layout: TEXT
+           ══════════════════════════════════════════════════ -->
+      <section class="slide slide--text">
+        <div class="slide__chrome">
+          <img
+            class="corner-wordmark"
+            src="assets/image3.svg"
+            alt="Rotterdam School of Management, Erasmus University"
+          />
+          <img class="corner-logo" src="assets/image5.svg" alt="RSM logo" />
         </div>
-        <div>
-          <h2>Column Two</h2>
-          <p>Use this area for a chart, figure, quote, or supporting detail.</p>
+
+        <div class="slide__content slide__content--text">
+          <h2>Place title here</h2>
+          <div class="prose">
+            <p>
+              Consectetuer adipiscing elit. Maecenas porttitor congue massa.
+              Fusce posuere, magna sed pulvinar ultricies, purus lectus
+              malesuada libero, sit amet. Amet dictum sit amet justo donec
+              enim diam. Tortor id aliquet lectus proin nibh nisl condimentum.
+              Cras ornare arcu dui vivamus arcu felis bibendum ut. Malesuada
+              proin libero nunc consequat interdum varius. Tortor aliquam
+              nulla facilisi cras. Donec quam felis, ultricies nec,
+              pellentesque eu, pretium quis, sem. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus
+              mus.
+            </p>
+            <p class="prose__heading">Lorem ipsum dolor sit amet</p>
+            <ul class="prose__list">
+              <li>Nunc viverra imperdiet enim.</li>
+              <li>
+                Fusce est vivamus a tellus.
+                <ul>
+                  <li>Pellentesque habitant morbi tristique.</li>
+                  <li>
+                    Senectus et netus et malesuada fames.
+                    <ul>
+                      <li>Turpis egestas proin pharetra.</li>
+                      <li>Nonummy pede, mauris et orci.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div class="slide__footer">
+          <img
+            class="wordmark wordmark--dark"
+            src="assets/image3.svg"
+            alt="Rotterdam School of Management, Erasmus University"
+          />
+          <span class="slide__number">3</span>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           SLIDE 4 — Section divider
+           Layout: TITLE
+           ══════════════════════════════════════════════════ -->
+      <section class="slide slide--divider">
+        <div class="slide__chrome">
+          <img
+            class="corner-wordmark"
+            src="assets/image3.svg"
+            alt="Rotterdam School of Management, Erasmus University"
+          />
+          <img class="corner-logo" src="assets/image5.svg" alt="RSM logo" />
+        </div>
+
+        <div class="slide__content slide__content--divider">
+          <p class="slide__eyebrow">Section divider</p>
+          <h2>Place title here</h2>
+        </div>
+
+        <div class="slide__footer slide__footer--simple">
+          <span class="slide__number">4</span>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           SLIDE 5 — Closing / Contact
+           Layout: ALT. CLOSURE/CONTACT
+           ══════════════════════════════════════════════════ -->
+      <section class="slide slide--closing-alt">
+        <div class="slide__content slide__content--closing-alt">
+          <div class="closing-alt__intro">
+            <h2>Thank you</h2>
+            <p class="slide__subtitle">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </p>
+          </div>
+
+          <div class="closing-alt__bottom">
+            <img class="closing-brand" src="assets/image5.svg" alt="RSM logo" />
+
+            <div class="closing-accreditation">
+              <p class="accreditation-label">Accredited by</p>
+              <div class="accreditation-strip">
+                <img src="assets/image6.svg" alt="Association of MBAs" />
+                <img src="assets/image7.svg" alt="AACSB Accredited" />
+                <div class="accreditation-equis" aria-label="EFMD EQUIS Accredited">
+                  <span class="accreditation-equis__efmd">EFMD</span>
+                  <span class="accreditation-equis__equis">EQUIS</span>
+                  <span class="accreditation-equis__sub">Accredited</span>
+                </div>
+                <img src="assets/image9.svg" alt="NVAO accreditation" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <address class="contact-card contact-card--dark">
+          <a href="https://www.rsm.nl/">www.rsm.nl</a>
+          <span>Burgemeester Oudlaan 50</span>
+          <span>3062 PA Rotterdam</span>
+          <span>The Netherlands</span>
+          <span>+31 10 408 2222</span>
+          <a href="mailto:info@rsm.nl">info@rsm.nl</a>
+        </address>
       </section>
     </main>
   </body>
